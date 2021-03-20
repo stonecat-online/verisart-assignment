@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 20px;
+  background-color: var(--offWhite);
+}
+
+:root {
+ 
+  --lightViolet: #B9BBCD;
+  --violet: #9094B6;
+  --darkBlueOpaque: rgba(76, 59, 77, 0.2);
+  --offWhite: #F3F3F3;
+  --offBlack: #272727;
+  
+  /* --gradientOne: linear-gradient(177deg, rgba(186,106,99,1) 0%, rgba(162,149,169,1) 100%); */
+
+
+  /* layers */
+
+  --underBottom: -10;
+  --underMiddle: -7;
+  --underTop: -3;
+  --overBottom: 3;
+  --overMiddle: 7;
+  --overTop: 10;
+}
